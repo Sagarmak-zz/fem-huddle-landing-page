@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100%;
+  line-height: 1;
+  font-size: 14px;
+  color: white;
+  background: url(./images/bg-desktop.svg) #6648B1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding: 2rem 3rem;
+}
+
+/* Flex Helpers */
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+
+.font-poppins {
+  /* Headings and Button */
+  font-family: 'Poppins', sans-serif;
+}
+.size-1 {
+  font-size: 1rem;
+}
+.bold-500 {
+  font-weight: 500;
+}
+.bold {
+  font-weight: bold;
+}
+
+.container .header {
+  padding: 1rem 0;
+}
+.container .body {
+  padding: 2rem 0;
+}
+.container .body .body-content {
+  padding: 2rem 3rem;
+}
+.container .body .body-content .head {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.container .body .body-content .description {
+  font-size: 1rem;
+  padding: 2rem 0;
+  line-height: 1.8;
+}
+.container .body .body-content .button {
+  font-size: 1.5rem;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:focus {
+  color: inherit;
+}
+
+/* @media all and (max-width: 550px) {} */
