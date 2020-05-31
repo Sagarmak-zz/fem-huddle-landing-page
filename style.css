@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  padding: 2rem 3rem;
+  padding: 2rem 4rem 0;
 }
 
 /* Flex Helpers */
@@ -55,8 +55,14 @@ body {
 .container .header {
   padding: 1rem 0;
 }
+.container .header img {
+  width: 15%;
+}
 .container .body {
-  padding: 2rem 0;
+  padding: 3rem 0 2rem;
+}
+.container .body .body-image {
+  width: 55%;
 }
 .container .body .body-content {
   padding: 2rem 3rem;
@@ -67,11 +73,29 @@ body {
 }
 .container .body .body-content .description {
   font-size: 1rem;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   line-height: 1.8;
 }
 .container .body .body-content .button {
-  font-size: 1.5rem;
+  /*  */
+}
+.container .body .body-content .button button {
+  background: white;
+  border-radius: 35px;
+  color: #6648B1;
+  padding: 1.3rem 3.8rem;
+  font-size: 1.2rem;
+  box-shadow: 4px 3px 20px -10px rgba(0,0,0,0.75);
+}
+.container .footer .footer-logo {
+  padding: 1rem 1rem;
+  border: solid 1px white;
+  border-radius: 35px;
+  margin: 0 0.5rem;
+  text-align: center;
+}
+.fab {
+  width: 0.8rem;
 }
 
 
@@ -83,4 +107,9 @@ a:focus {
   color: inherit;
 }
 
+@media all and (max-width: 1380px) {
+  .container {
+    padding: 2rem;
+  }
+}
 /* @media all and (max-width: 550px) {} */
