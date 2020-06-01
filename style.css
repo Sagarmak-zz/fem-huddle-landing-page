@@ -124,6 +124,7 @@ a:focus {
   }
   .container .body {
     flex-wrap: wrap;
+    padding: 2rem 0 1rem;
   }
   .container .body .body-image {
     width: 100%;
@@ -132,6 +133,20 @@ a:focus {
     width: 100%;
   }
   .container .body .body-content {
-    padding: 0;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .container .body .body-content .button button {
+    padding: 1rem 3.8rem;
+    width: 80%;
+  }
+  .container .body .body-content .head {
+    font-size: 1.5rem;
+  }
+  .container .body .body-content .description br {
+    display: none;
+  }
+  .container .footer {
+    justify-content: center;
   }
 }
